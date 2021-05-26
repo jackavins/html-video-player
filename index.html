@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+  </head>
+  <body>
+    <div class="video-container">
+      time: <span id="time"></span> ###
+      <span id="buffer">Buffering...</span> ### speed:
+      <span id="speed"></span> ### GOTO <input id="goto" type="number" /> ###
+      Link <input id="link" type="text" />
+      <video
+        style="height: 95%; width: 100%"
+        class="player__video viewer"
+        preload
+        autoplay
+        src="https://oa-kt-sessions.s3-eu-west-1.amazonaws.com/UP/Ch2_Full_2019-12-05T11_12.mp4"
+      ></video>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
